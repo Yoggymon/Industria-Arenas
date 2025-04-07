@@ -1,0 +1,30 @@
+---
+
+import Layout from '../layouts/Layout.astro';
+import Badge from '../components/Badge.astro';
+import SocialPill from '../components/SocialPill.astro';
+import MailIcon from "../components/icons/Mail.astro";
+import TelegramIcon from "../components/icons/Telegram.astro";
+---
+
+<Layout>
+	<main>
+    <section class="w-full lg:w-[740px] mx-auto py-15">
+    <h1 class="text-white text-5xl font-bold flex flex-row gap-x-5 pb-4"> Inversiones & Industria Arenas
+      <div class="flex justify-center items-center">
+      </div>
+    </h1> 
+		<h2 class="text-2xl text-amber-50 text-wrap">
+      <span class="text-yellow-500/90 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Molestiae voluptatem repudiandae maxime modi, dicta nostrum fugit veniam nulla eveniet doloribus vel nesciunt ullam ratione adipisci, deserunt enim sunt odio ex!</h2> 
+    <nav class="flex gap-x-2 mt-4">
+        <SocialPill href ="mailto:darenas@gmail.com">
+          <MailIcon class="size-10"/>
+          darenas@gmail.com
+        </SocialPill>
+        <SocialPill href="https://www.pokemon.com/el/pokedex/pikachu">  
+          <TelegramIcon class="w-6 h-6"/>
+        </SocialPill>
+    </nav>
+    </section>
+  </main>
+</Layout>

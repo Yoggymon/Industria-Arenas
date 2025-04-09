@@ -5,11 +5,12 @@ import Badge from '../components/Badge.astro';
 import SocialPill from '../components/SocialPill.astro';
 import MailIcon from "../components/icons/Mail.astro";
 import TelegramIcon from "../components/icons/Telegram.astro";
+import YoutubeIcon from "../components/icons/Youtube.astro";
 ---
 
-<Layout>
+<Layout title="Inversiones & Industrias Aremas , lidernado el mercado con servicios e insumos">
 	<main>
-    <section class="w-full lg:w-[740px] mx-auto py-15">
+    <section class="w-full lg:w-[740px] mx-auto py-4">
     <h1 class="text-white text-5xl font-bold flex flex-row gap-x-5 pb-4"> Inversiones & Industria Arenas
       <div class="flex justify-center items-center">
       </div>
@@ -21,8 +22,14 @@ import TelegramIcon from "../components/icons/Telegram.astro";
           <MailIcon class="size-10"/>
           darenas@gmail.com
         </SocialPill>
-        <SocialPill href="https://www.pokemon.com/el/pokedex/pikachu">  
+        
+        <!-- <SocialPill href="https://www.pokemon.com/el/pokedex/pikachu">  
           <TelegramIcon class="w-6 h-6"/>
+        </SocialPill> -->
+        
+        <SocialPill href="https://www.youtube.com/@bicletero">  
+          <YoutubeIcon class="w-6 h-6"/>
+          Conoce nuestro trabajo
         </SocialPill>
     </nav>
     </section>

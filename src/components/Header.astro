@@ -2,16 +2,18 @@
 import {Image} from 'astro:assets';
 import LogoIA from '../images/logo.png';
 ---
-<header class="flex justify-around items-center py-5 w-[1120px] mx-auto">
-  <img 
-  class="w-100 h-45"
-  src={LogoIA.src} 
-  alt="Logo Industrias Arenas" />
-
-  <nav class="flex flex-row gap-x-10 text-white opacity-80 text-2xl">
-    <a href="">Home</a>
-    <a href="">About</a>
-    <a href="">Projects</a>
-    <a href="">Contact</a>
+<header class="flex flex-col items-center py-4 w-full mx-auto">
+  <nav class="flex flex-row gap-x-10 text-white opacity-80 text-2xl mb-5">
+    <a href="#top">Inicio</a>
+    <a href="#about">Nosotros</a>
+    <a href="#products">Productos</a>
+    <a href="#service">Servicios</a>
+    <a href="#contact">Contacto</a>
   </nav>
+
+  <img 
+    class="w-150 h-65 mt-5"
+    src={LogoIA.src} 
+    alt="Logo Industrias Arenas" 
+  />
 </header>
